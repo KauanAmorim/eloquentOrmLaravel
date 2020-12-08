@@ -9,5 +9,5 @@ class Post extends Model
     Protected $table = "posts";
     Protected $primaryKey = "id";
 
-    Protected $timestamps = true;
+    public $timestamps = true;
 }
